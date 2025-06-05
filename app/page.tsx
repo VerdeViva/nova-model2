@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "What's the status of the latest release?",
+  "How far along is the QA?",
+  "Are there any blockers regarding our roll-out date?",
 ];
 
 export default function Chat() {
@@ -83,7 +83,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Hi, I'm your new AI-PM model, Iris.
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
